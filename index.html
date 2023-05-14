@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--    <script src="javascript.js"></script>-->
+</head>
+<body>
+
+<header class="sticky-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-2 menu">
+                <img src="picture/img.png">
+            </div>
+            <div class="col-2">
+
+            </div>
+
+            <div class="col-8 menu">
+                <ul>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Sản phẩm</a>
+                        <ul class="menu_child">
+                            <li><a href="">Hon Da</a></li>
+                            <li><a href="">Kawasaki</a></li>
+                            <li><a href="">Yamaha</a></li>
+                            <li><a href="">Beneli</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Dịch vụ</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Hướng dẫn</a></li>
+                    <li><a href="login/login.html" id="login">Đăng nhập/ Đăng kí</a></li>
+                    <li><a href="" id="name"></a></li>
+                    <li><a href="" id="log_out" onclick="logOut()"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container-1">
+    <div class="row">
+        <div class="col-12">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="picture/bmw-1000.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="picture/Kawasaki-400.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="picture/yamaha-R1.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="row">
+        <div class="col-12">
+            <h3>Sản phẩm</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/honda-cb1000r.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Honda CB1000R ABS 2020</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>509.000.000 VND</b></p>
+            </div>
+        </div>
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/xe-honda-cbr150r.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Honda CBR150R ABS 2019</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>80.000.000 VND</b></p>
+            </div>
+        </div>
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/honda-rebel-500-2020.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Honda REBEL 500 2020</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>180.000.000 VND</b></p>
+            </div>
+        </div>
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/Kawasaki-Z650-ABS-01.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Kawasaki Z650 SE 2021</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>190.000.000 VND</b></p>
+            </div>
+        </div>
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/kawasaki-z400.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Kawasaki Z400 ABS</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>149.000.000 VND</b></p>
+            </div>
+        </div>
+        <div class="col-2th">
+            <div class="card">
+                <img src="picture/Kawasaki-400.jpg" alt="">
+            </div>
+            <div class="name">
+                <p><a href="">Kawasaki Ninja 400 ABS 2021</a></p>
+            </div>
+            <div class="price">
+                <p>Giá bán: <b>159.000.000 VND</b></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+<div class="container">
+    <div class="row footer">
+        <div class="col-3">
+            <h3>Liên hệ</h3>
+            <ul class="menu_footer">
+                <li><p><i class="bi bi-telephone-fill"></i> Hotline Hà Nội: <span>0123.456.789</span></p></li>
+                <li><p><i class="bi bi-telephone-fill"></i> Hotline Tp.Hồ Chí Minh: <span>0123.555.999</span></p></li>
+                <li><p> <i class="bi bi-envelope-open"></i> Email: <span>mymotorsport@gmail.com</span></p></li>
+                <li><p> <i class="bi bi-globe"></i> Website: <span>http://mymotorsport.com</span></p></li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h3>Show room</h3>
+            <ul class="menu_footer">
+                <li><p> <i class="bi bi-house-door-fill"></i> Show room 1: <span>3-5 P.Huỳnh Thúc Kháng, Láng Hạ, Đống Đa, Hà Nội</span></p></li>
+                <li><p> <i class="bi bi-house-door-fill"></i> Show room 2: <span>1009 Đ.La Thành, Láng Thượng, Hà Nội</span></p></li>
+                <li><p> <i class="bi bi-house-door-fill"></i> Show room 3: <span>141 Đ. Cộng Hòa, Phường 12, Tân Bình, Tp.Hồ Chí Minh</span></p></li>
+                <li><p> <i class="bi bi-house-door-fill"></i>  Show room 4: <span>328 Đ. Phạm Văn Đồng, Phường 1, Gò Vấp, Tp.Hồ Chí Minh</span></p></li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <h3>Về trang chủ</h3>
+            <ul class="menu_footer">
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Quyền lợi & lợi ích</a></li>
+                <li><a href="">Điều khoản sử dụng</a></li>
+                <li><a href="">Chính sách bảo mật</a></li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <div>
+                <h3>Fan Page</h3>
+                <a href=""><img src="picture/fanpage.jpg" alt="" style="width: 200px; height: 150px"></a>
+            </div>
+            <br>
+            <div class="footer_a">
+                <h3>Theo dõi chúng tôi</h3>
+                <a href=""> <i class="bi bi-facebook"></i></a>
+                <a href=""> <i class="bi bi-line"></i></a>
+                <a href=""> <i class="bi bi-messenger"></i></a>
+                <a href=""> <i class="bi bi-pinterest"></i></a>
+                <a href=""> <i class="bi bi-skype"></i></a>
+                <a href=""> <i class="bi bi-wechat"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <div class="row">
+        <div class="col-12 copy_right">
+            <h5 href="" style="color: white">Copyright © 2023. All right reserved</h5>
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+
+    let name = localStorage.getItem('nameKey');
+    if (name !== null){
+        document.getElementById('login').innerHTML = '';
+        document.getElementById('name').innerHTML = name;
+        document.getElementById('log_out').innerHTML = 'Log Out';
+    }
+    function logOut() {
+        localStorage.removeItem('nameKey');
+        window.location.reload();
+    }
+
+</script>
+
+</body>
+</html>
